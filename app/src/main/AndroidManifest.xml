@@ -9,14 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Principal_Activity"></activity>
-        <activity android:name=".Login_Activity" />
-        <activity android:name=".Splash_Activity">
+        <activity android:name=".Principal_Activity"/>
+        <activity android:name=".Login_Activity" android:theme="@style/temaSemBarra" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Splash_Activity">
+
         </activity>
         <activity android:name=".MainActivity">
 

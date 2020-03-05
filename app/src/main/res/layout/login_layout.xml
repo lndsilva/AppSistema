@@ -13,23 +13,34 @@
         android:layout_margin="50dp"
         android:orientation="vertical">
 
-
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
             android:src="@drawable/logo" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_email"
             android:hint="Email"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:padding="10dp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/borda"
+            android:drawableRight="@drawable/ic_lock"
             android:hint="Senha"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:padding="10dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,16 +51,16 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Entrar"
                 android:layout_weight="1"
+                android:text="Entrar"
                 android:textAllCaps="false" />
 
             <Button
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sair"
                 android:layout_weight="1"
+                android:text="Sair"
                 android:textAllCaps="false" />
         </LinearLayout>
     </LinearLayout>
