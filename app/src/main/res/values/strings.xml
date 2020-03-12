@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AppSistema</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="sair">Sair</string>
 </resources>
